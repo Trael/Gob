@@ -290,7 +290,7 @@ func (e *RenderableDomElement) LayoutPass(containerWidth int, r image.Rectangle,
 		if dot.X < leftFloatStack.Width() {
 			dot.X = leftFloatStack.Width()
 		}
-		float := c.GetFloat()
+		float := "none" //c.GetFloat()
 		switch c.Type {
 
 		case html.TextNode:
